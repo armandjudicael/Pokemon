@@ -11,7 +11,6 @@ import java.util.List;
 public class PokemonService implements BasicServiceMethod<Pokemon> {
     @Autowired
     private PokemonRepo pokemonRepo;
-
     /**
      * @param object
      * @return
